@@ -1,0 +1,38 @@
+ <html><!--
+//Page View
+//Author: Tim Roesner
+//Created 6/10/13
+//Copyright RecklessGeek.com
+ -->
+ 
+ <head>
+ <style type="text/css">
+ 
+ /* Here you can decide how much padding you wish the page view to have. Mostly used to fix the location. Otherwise use <center> tags instead of <page> tags */
+page {
+	padding-left: 16em;
+}
+
+a.img {
+-webkit-filter: brightness(0.5);
+-moz-filter: brightness(0.5);
+-o-filter: brightness(0.5);
+-ms-filter: brightness(0.5);
+    
+}
+
+a.img:hover {
+-webkit-filter: brightness(0);
+-moz-filter: brightness(0);
+-o-filter: brightness(0);
+-ms-filter: brightness(0);
+}
+
+</style>
+  <title>Page View Example</title>
+  <body>
+  <!-- This is the actual page view code. Note to replace the link with the URL location of your file. -->
+  <page><a class="img" href="http://recklessgeek.com/page=1"><img src="dot.png" alt="Dot" align="bottom" height="10" width="10"></a>&nbsp;&nbsp;&nbsp;&nbsp;<img src="dotactive.png" alt="DotA" align="bottom" height="11" width="11">&nbsp;&nbsp;&nbsp;&nbsp;<a class="img" href="http://recklessgeek.com/page=3"><img src="dot.png" alt="Dot" align="bottom" height="10" width="10"></a></page>
+ </body>
+</html>
+  
